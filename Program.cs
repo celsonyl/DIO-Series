@@ -127,7 +127,8 @@ namespace DIO.Series
 
             foreach(var serie in list)
             {
-                Console.WriteLine(serie.ToString());
+                var excluida = serie.retornaSerieExcluida();
+                Console.WriteLine("ID da série: "+serie.retornaId()+" Título: "+serie.retornaTitulo()+(excluida ? " *Série Excluida*" : ""));
             }
         }
 

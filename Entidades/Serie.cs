@@ -52,5 +52,9 @@ namespace DIO.Series.Entidades
         {
             Excluido = true;
         }
+        public bool retornaSerieExcluida()
+        {
+            return Excluido;
+        }
     }
 }
