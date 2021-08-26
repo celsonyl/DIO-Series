@@ -29,10 +29,12 @@ namespace DIO.Series.Entidades
         public override string ToString()
         {
             var retorno = "";
+            Console.WriteLine();
             retorno += "Gênero: " + Genero + Environment.NewLine;
             retorno += "Titulo: " + Titulo + Environment.NewLine;
             retorno += "Descrição: " + Descricao + Environment.NewLine;
             retorno += "Ano de Inicio: " + Ano + Environment.NewLine;
+            retorno += "Exluido: " + Excluido;
             return retorno;
         }
 

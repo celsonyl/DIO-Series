@@ -36,7 +36,7 @@ namespace DIO.Series.Entidades
             return series.Count;
         }
 
-        public Serie RetornaPorId(int id)
+        public Serie RetornaSeriePorId(int id)
         {
             return series[id];
         }
